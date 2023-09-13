@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotels</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <div class="logo">
+          <ul>
+            <li>
+              <a href=""><span>Hotels.com</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="">English</a></li>
+            <li><a href="">List Your Property</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Trips</a></li>
+            <li><a href="">Sign In</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="search">
+      <input
+        type="search"
+        name=""
+        id=""
+        class="inputbar"
+        placeholder="Search By Location"
+      />
+      <input type="button" value="Search" class="inputbtn" />
+    </section>
+
+    <section class="main">
+      <div class="left">
+        <div class="sortby">
+          <h2>Sort By</h2>
+          <select name="" id="" class="sort">
+            <option value="">Delhi</option>
+            <option value="">Hyderabad</option>
+            <option value="">Mumbai</option>
+            <option value="">Pune</option>
+          </select>
+        </div>
+        <hr />
+
+        <section class="filter">
+          <h2>Filter by</h2>
+          <p>Guest Rating</p>
+          <div class="inputss">
+            <p><input type="radio" name="input" id="" /> Any</p>
+            <p><input type="radio" name="input" id="" /> Wonderful 9+</p>
+            <p><input type="radio" name="input" id="" /> Very good 8+</p>
+            <p><input type="radio" name="input" id="" /> Good 7+</p>
+          </div>
+        </section>
+        <hr />
+
+        <section class="rating"></section>
+      </div>
+      <div class="right"></div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
 </html>
